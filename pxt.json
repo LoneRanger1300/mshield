@@ -1,0 +1,32 @@
+{
+    "name": "mshield",
+    "version": "1.1.2",
+    "description": "mShield designed by Siyeenove",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "tutorial-template": "github:loneranger1300/tutorial-template#ac37148fb64616a30037197e08887cd30079f4ed",
+        "6.5 Battery voltage": "pkg:6.5 Battery voltage.json"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "IR.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "custom.ts",
+        "6.5 Battery voltage.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
